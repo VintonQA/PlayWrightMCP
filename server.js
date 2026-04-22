@@ -4,7 +4,7 @@ const { openPage } = require('./tools/browser');
 const { getDOM } = require('./tools/dom');
 const { takeScreenshot } = require('./tools/screenshot');
 const { runBasicTest } = require('./tools/testRunner');
-
+const { click, type } = require('./tools/browserActions');
 const app = express();
 app.use(express.json());
 
@@ -30,6 +30,14 @@ app.post('/tool', async (req, res) => {
 
       case 'runTest':
         result = await runBasicTest();
+        break;
+
+        case 'click':
+         result = await click(args.selector);
+         break;
+
+        case 'type':
+        result = await type(args.selector, args.text);
         break;
 
       default:
