@@ -1,0 +1,11 @@
+{
+  "dashboardLoaded": true,
+  "uiIssues": [
+    "AI analysis failed"
+  ],
+  "functionalIssues": [],
+  "dataIssues": [],
+  "uxIssues": [],
+  "criticalBugs": [],
+  "summary": "AI analysis failed"
+}

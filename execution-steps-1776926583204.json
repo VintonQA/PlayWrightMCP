@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "action": "type",
+      "selector": "input[name]",
+      "value": "vintonagent@gmail.com"
+    },
+    {
+      "action": "type",
+      "selector": "input[type=password]",
+      "value": "123456"
+    },
+    {
+      "action": "click",
+      "selector": "button",
+      "value": ""
+    },
+    {
+      "action": "wait",
+      "selector": "",
+      "value": ""
+    },
+    {
+      "action": "type",
+      "selector": "input[name]",
+      "value": "dashboard"
+    },
+    {
+      "action": "click",
+      "selector": "button",
+      "value": ""
+    },
+    {
+      "action": "wait",
+      "selector": "h1",
+      "value": ""
+    },
+    {
+      "action": "finish",
+      "selector": "",
+      "value": ""
+    }
+  ]
+]

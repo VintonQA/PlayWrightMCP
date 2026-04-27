@@ -1,0 +1,12 @@
+[
+  {
+    "action": "type | click | wait | finish",
+    "selector": "input[type=\"email\"]",
+    "value": "vintonagent@gmail.com"
+  },
+  {
+    "action": "click | input[type=\"email\"]",
+    "selector": "input[type=\"email\"]",
+    "value": "vintonagent@gmail.com"
+  }
+]
