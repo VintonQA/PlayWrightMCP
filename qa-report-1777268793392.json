@@ -1,0 +1,24 @@
+{
+  "dashboardLoaded": true,
+  "uiIssues": [
+    "Empty input field with no label or placeholder",
+    "Multiple buttons with empty text",
+    "Links with no text or href"
+  ],
+  "functionalIssues": [
+    "Links with href set to javascript:void(0);",
+    "Duplicate links with same href"
+  ],
+  "dataIssues": [
+    "No data displayed for approved players",
+    "No data displayed for pending requests"
+  ],
+  "uxIssues": [
+    "Poor navigation with multiple links to same page",
+    "No clear distinction between different sections of the dashboard"
+  ],
+  "criticalBugs": [
+    "Potential security vulnerability with links to unknown destinations"
+  ],
+  "summary": "The dashboard has multiple UI, functional, and data issues that need to be addressed to improve user experience and functionality."
+}

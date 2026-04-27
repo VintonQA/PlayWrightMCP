@@ -1,0 +1,23 @@
+{
+  "testResults": {
+    "uiBrokenElements": false,
+    "missingComponents": false,
+    "navigationIssues": false,
+    "blankScreens": false,
+    "uxProblems": false
+  },
+  "issues": [
+    {
+      "type": "uiBrokenElements",
+      "description": "Input field with empty name attribute"
+    },
+    {
+      "type": "missingComponents",
+      "description": "Missing label for checkbox input"
+    },
+    {
+      "type": "uxProblems",
+      "description": "Password input field has visible placeholder text"
+    }
+  ]
+}

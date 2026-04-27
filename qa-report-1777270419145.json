@@ -1,0 +1,17 @@
+{
+  "loginSuccess": true,
+  "interactionTests": [
+    {
+      "element": "button:nth-of-type(1)",
+      "type": "button",
+      "status": "Clicked"
+    }
+  ],
+  "dashboardLoaded": true,
+  "uiIssues": [],
+  "functionalIssues": [],
+  "dataIssues": [],
+  "uxIssues": [],
+  "criticalBugs": [],
+  "summary": "The dashboard has loaded successfully and no issues were found based on the provided DOM and interaction results."
+}

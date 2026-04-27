@@ -1,0 +1,20 @@
+{
+  "loginSuccess": true,
+  "interactionTests": [
+    {
+      "element": "button",
+      "status": "Clicked"
+    },
+    {
+      "element": "a",
+      "status": "Clicked"
+    }
+  ],
+  "dashboardLoaded": true,
+  "uiIssues": [],
+  "functionalIssues": [],
+  "dataIssues": [],
+  "uxIssues": [],
+  "criticalBugs": [],
+  "summary": "The dashboard has loaded successfully and all interactions have been executed without any visible issues."
+}
